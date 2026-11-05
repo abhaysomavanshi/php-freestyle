@@ -1,3 +1,3 @@
 <h1>MY NEW PHP WEBSITE</h1>
 <h2>JENKINS AUTO DEPLOYMENT</h2>
-<p>Version 2</p>
+<p>1.0.0</p>
