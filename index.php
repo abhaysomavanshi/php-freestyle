@@ -1,3 +1,11 @@
 <h1>MY NEW PHP WEBSITE</h1>
+
 <h2>JENKINS AUTO DEPLOYMENT</h2>
-<p>1.0.0</p>
+
+<p>
+<?php
+echo "Version: " . htmlspecialchars(
+    getenv('APP_VERSION') ?: '1.0.0'
+);
+?>
+</p>
